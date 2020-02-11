@@ -1,3 +1,4 @@
+ 
 #!/bin/bash
 
 # Made by Raul Gavris <http://raulgavris.com>
@@ -111,7 +112,7 @@ mkswap /dev/nvme0n1p2
 swapon /dev/nvme0n1p2
 mount /dev/nvme0n1p3 /mnt
 mkdir /mnt/home
-mout /nvme0n1p4 /mnt/home
+mount /nvme0n1p4 /mnt/home
 
 
 
