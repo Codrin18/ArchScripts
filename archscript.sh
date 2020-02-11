@@ -124,7 +124,7 @@ echo "en_US ISO-8859-1" >> /etc/locale.gen
 echo "ro_RO ISO-8859-2" >> /etc/locale.gen
 locale-gen
 
-pacstrap -i /mnt base base-devel linux linux-firmware vim dialog git
+pacstrap -i /mnt base base-devel 
 
 genfstab -U /mnt >> /mnt/etc/fstab # again after mounting the boot partition and clean fstab
 
